@@ -12,13 +12,13 @@ const GalleryTab: React.FC<GalleryTabProps> = ({ image }) => {
   return (
     <Tab
       className="relative flex aspect-square cursor-pointer
-    items-center justify-center rounded-md bg-white"
+    items-center justify-center bg-white"
     >
       {({ selected }) => (
         <div>
           <span
             className="h-full w-full aspect-square
-          inset-0 overflow-hidden rounded-md"
+          inset-0 overflow-hidden "
           >
             <Image
               fill
